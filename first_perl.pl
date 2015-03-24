@@ -1,0 +1,1 @@
+#!/usr/bin/perl -w# store two DNA fragments into two variables called $DNA1 and $DNA 2$DNA1 = 'ACGGAGAGGACCTGATTGATC';$DNA2 = 'GACCTGCGCCTAGCC';print $DNA1, "\n";print $DNA2, "\n\n";$DNA3 = "$DNA1$DNA2";print $DNA3, "\n";$DNA3 = $DNA1 . $DNA2;print $DNA3, "\n";print $DNA1,$DNA2, "\n";exit;
